@@ -1,0 +1,7 @@
+artifacts:
+files:
+- build/libs/*.conf
+- scripts/*.sh
+- appspec.yml
+- index.html
+
