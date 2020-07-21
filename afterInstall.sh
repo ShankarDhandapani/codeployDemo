@@ -1,3 +1,4 @@
+#!/bin/sh
 mv HelloWorld.conf /etc/apache2/sites-available/
 cp /airflow/test.txt ./test.txt
 cd /etc/apache2/sites-available/

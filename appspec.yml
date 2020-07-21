@@ -9,8 +9,8 @@ files:
     destination: /airflow
 hooks:
   BeforeInstall:
-    - location: before-install.bat
+    - location: beforeInstall.sh
       timeout: 900
   AfterInstall:
-    - location: after-install.bat
+    - location: afterInstall.sh
       timeout: 100
