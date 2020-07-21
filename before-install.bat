@@ -1,3 +1,3 @@
-sudo rm /var/www/HelloWorldApp/index.html
+# sudo rm /var/www/HelloWorldApp/index.html
 
 
