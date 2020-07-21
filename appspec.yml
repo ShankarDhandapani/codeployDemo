@@ -6,7 +6,7 @@ files:
   - source: /HelloWorld.conf
     destination: /etc/apache2/sites-available/
   - source: /test.txt
-    destination:/airflow/test_copy.txt
+    destination: /airflow/test_copy.txt
 hooks:
   ApplicationStop:
     - location: applicationStop.sh
