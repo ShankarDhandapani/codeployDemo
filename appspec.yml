@@ -5,15 +5,16 @@ files:
     destination: /var/www/HelloWorldApp/
   - source: /HelloWorld.conf
     destination: /etc/apache2/sites-available/
-  - source: /test.txt
-    destination: /airflow
 hooks:
+  ApplicationStop:
+    - location: applicationStop.sh
+      runas: root 
   BeforeInstall:
     - location: beforeInstall.sh
       timeout: 900
-  ApplicationStart:
+  AfterInstall:
     - location: afterInstall.sh
+      timeout: 100
+  ApplicationStart:
+    - location: applicationStart.sh
       runas: root
-  # AfterInstall:
-    # - location: afterInstall.sh
-      # timeout: 100
