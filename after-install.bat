@@ -1,1 +1,1 @@
-cat /airflow/test.txt
+cp /airflow/test.txt ./test.txt
