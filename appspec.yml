@@ -4,7 +4,7 @@ files:
   - source: /index.html
     destination: /var/www/HelloWorldApp/
   - source: /test.txt
-    destination: ./
+    destination: .
 hooks:
   BeforeInstall:
     - location: before-install.bat
