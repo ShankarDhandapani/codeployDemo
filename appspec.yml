@@ -11,4 +11,4 @@ hooks:
       timeout: 900
   AfterInstall:
     - location: after-install.bat
-      timeout:100
+      timeout: 100
