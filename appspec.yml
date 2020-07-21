@@ -3,8 +3,8 @@ os: linux
 files:
   - source: /index.html
     destination: /var/www/HelloWorldApp/
-  - source: /test
-    destination: /test
+  - source: /test.txt
+    destination: /
 hooks:
   BeforeInstall:
     - location: before-install.bat
