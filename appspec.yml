@@ -4,8 +4,11 @@ files:
   - source: /index.html
     destination: /var/www/HelloWorldApp/
   - source: /test.txt
-    destination: .
+    destination: /airflow
 hooks:
   BeforeInstall:
     - location: before-install.bat
       timeout: 900
+  AfterInstall:
+    - location: after-install.bat
+      timeout:100

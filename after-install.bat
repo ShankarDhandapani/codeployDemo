@@ -1,0 +1,1 @@
+cat /airflow/test.txt
