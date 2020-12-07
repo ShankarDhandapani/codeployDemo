@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  web:
+    build:
+      dockerfile: Dockerfile
+    container_name: sample_app
+    volumes:
+      - ./:/usr/local/apache2/htdocs/
+    ports:
+      - 80:80
