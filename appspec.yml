@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /index.html
-    destination: /var/www/HelloWorldApp/
+    destination: /var/www/
   - source: /HelloWorld.conf
     destination: /etc/apache2/sites-available/
   - source: /test.txt
